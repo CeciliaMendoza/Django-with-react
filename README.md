@@ -8,4 +8,4 @@ A app of To Do List with django and react
 4. cd frontend and then npm start
 
 
-![Alt text]("captura.png")
+![captura](https://github.com/CeciliaMendoza/Django-with-react/assets/60635684/fe60a13c-09cf-499c-9a6a-12b440533b6b)
