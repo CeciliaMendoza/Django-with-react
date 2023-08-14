@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(202,187,254);
+  background: linear-gradient(45deg, rgba(202,187,254,1) 0%, rgba(232,204,229,1) 25%, rgba(255,216,211,1) 50%, rgba(255,233,207,1) 75%, rgba(254,254,218,1) 100%); ;
+  background-attachment: fixed; /*edit*/
+
+}
+.todo-title {
+  cursor: pointer;
+}
+.completed-todo {
+  text-decoration: line-through;
+}
+
+.tab-list > span {
+  padding: 5px 8px;
+  border: 1px solid #282c34;
+  border-radius: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.tab-list > span.active {
+  background-color: #282c34;
+  color: #ffffff;
+}
+
+.titulo  {
+  color: white;
+  text-align: center;
+  font-family: 'Fugaz One', cursive;
+
+}
+
+/* Close Button */
+
+[class*='delete'] {
+  font: 25px/100% arial, sans-serif;
+  position: absolute;
+  right: 30px;
+  text-shadow: 0 1px 0 #fff;
+  font-weight: bold;
+  top: 5px;
+  color:red;
+  z-index: 2;
+}
+
+.delete:after {
+  content: '✖'; /* UTF-8 symbol */
+}
+
+.form-control {
+  width:auto;
+  display:inline-block;
+
+}
+
+form label{
+  margin-right: 10px;
+}
+form select{
+  margin-left: 10px;
+}
+
+.post-it {
+  position: relative;
+  height: 200px;
+}
+
+
+.gradeTriangle{ 
+  position:absolute;
+  right:0; 
+  bottom:0;
+  width: 15px; 
+  height: 15px;
+  border-bottom: solid 15px white;
+  border-right: solid 15px white; 
+  box-sizing: border-box; 
+  color:#fff;
+  border-left: solid 15px transparent; 
+  border-top: solid 15px transparent;
+  }
+
+
+.filtros {
+  width: 25%; 
+}
+
+.espacio {
+  margin: 10px;
+}
+
+.create {
+  font-size: large;
+  font-weight: bold;
+  color: #f9d5d8;
+  border-color: #f9d5d8;
+}
+
+.create:hover {
+  background-color: #f9d5d8;
+  color: #ffffff;
+}
